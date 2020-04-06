@@ -1,0 +1,545 @@
+[
+    {
+        "acronym": "AAAI",
+        "fullname": "Association for the Advancement of Artificial Intelligence",
+        "area":"AI",
+        "subarea": "Artificial Intelligence",
+        "location": "Worldwide"
+    },
+    {
+        "acronym": "IJCAI",
+        "fullname": "International Joint Conference on Artificial Intelligence",
+        "area":"AI",
+        "subarea": "Artificial Intelligence",
+        "location": "Worldwide"
+
+    },
+    {
+        "acronym": "CVPR",
+        "fullname": "Computer Vision and Pattern Recognition",
+        "area":"AI",
+        "subarea": "Computer Vision",
+        "location": "Worldwide"
+    },
+    {
+        "acronym": "ECCV",
+        "fullname": "European Conference on Computer Vision",
+        "area":"AI",
+        "subarea": "Computer Vision",
+        "location": "Europe"
+    },
+    {
+        "acronym": "ICCV",
+        "fullname": "IEEE International Conference on Computer Vision",
+        "area":"AI",
+        "subarea": "Computer Vision",
+        "location": "Worldwide"
+    },
+    {
+        "acronym": "ICML",
+        "fullname": "International Conference on Machine Learning",
+        "area":"AI",
+        "subarea": "Machine learning and data mining",
+        "location": "Worldwide"
+    },
+    {
+        "acronym": "KDD",
+        "fullname": "Knowledge Discovery and Data Mining",
+        "area":"AI",
+        "subarea": "Machine learning and data mining",
+        "location": "Worldwide"
+    },
+    {
+        "acronym": "NIPS",
+        "fullname": "Neural Information Processing Systems",
+        "area":"AI",
+        "subarea": "Machine learning and data mining",
+        "location": "Worldwide"
+    },
+    {
+        "acronym": "ACL",
+        "fullname": "Annual Meeting of the Association for Computational Linguistics",
+        "area":"AI",
+        "subarea": "Natural language processing",
+        "location": "Worldwide"
+    },
+    {
+        "acronym": "EMNLP",
+        "fullname": "Conference on Empirical Methods in Natural Language Processing",
+        "area":"AI",
+        "subarea": "Natural language processing",
+        "location": "Worldwide"
+    },
+    {
+        "acronym": "NAACL",
+        "fullname": "North American Chapter of the Association for Computational Linguistics",
+        "area":"AI",
+        "subarea": "Natural language processing",
+        "location": "North-America"
+    },
+    {
+        "acronym": "SIGIR",
+        "fullname": "Annual International ACM SIGIR Conference on Research and Development in Information Retrieval",
+        "area":"AI",
+        "subarea": "The Web & information retrieval",
+        "location": "Worldwide"
+    },
+    {
+        "acronym": "WWW",
+        "fullname": "International World Wide Web Conferences",
+        "area":"AI",
+        "subarea": "The Web & information retrieval",
+        "location": "Worldwide"
+    },
+    {
+        "acronym": "ASPLOS",
+        "fullname": "International Conference on Architectural Support for Programming Languages and Operating Systems",
+        "area":"Systems",
+        "subarea": "Computer architecture",
+        "location": "Worldwide"
+    },
+    {
+        "acronym": "ISCA",
+        "fullname": "International Symposium on Computer Architecture",
+        "area":"Systems",
+        "subarea": "Computer architecture",
+        "location": "Worldwide"
+    },
+    {
+        "acronym": "MICRO",
+        "fullname": "Annual IEEE/ACM International Symposium on Microarchitecture",
+        "area":"Systems",
+        "subarea": "Computer architecture",
+        "location": "Worldwide"
+    },
+    {
+        "acronym": "HPCA",
+        "fullname": "International Symposium on High-Performance Computer Architecture",
+        "area":"Systems",
+        "subarea": "Computer architecture",
+        "location": "Worldwide"
+    },
+    {
+        "acronym": "SIGCOMM",
+        "fullname": "Conference on Applications, Technologies, Architectures, and Protocols for Computer Communication",
+        "area":"Systems",
+        "subarea": "Computer networks",
+        "location": "Worldwide"
+    },
+    {
+        "acronym": "NSDI",
+        "fullname": "Symposium on Networked Systems Design and Implementation",
+        "area":"Systems",
+        "subarea": "Computer networks",
+        "location": "Worldwide"
+    },
+    {
+        "acronym": "CCS",
+        "fullname": "Conference on Computer and Communications Security",
+        "area":"Systems",
+        "subarea": "Computer Security",
+        "location": "Worldwide"
+    },
+    {
+        "acronym": "Security and Privacy",
+        "fullname": "IEEE Symposium on Security and Privacy",
+        "area":"Systems",
+        "subarea": "Computer Security",
+        "location": "Worldwide"
+    },
+    {
+        "acronym": "USENIX",
+        "fullname": "USENIX Security Symposium",
+        "area":"Systems",
+        "subarea": "Computer Security",
+        "location": "Worldwide"
+    },
+    {
+        "acronym": "NDSS",
+        "fullname": "Network and Distributed System Security Symposium",
+        "area":"Systems",
+        "subarea": "Computer Security",
+        "location": "Worldwide"
+    },
+    
+    {
+        "acronym": "SIGMOD",
+        "fullname": "International Conference on Management of Data",
+        "area":"Systems",
+        "subarea": "Databases",
+        "location": "Worldwide"
+    },
+    {
+        "acronym": "VLDB",
+        "fullname": "Very Large Data Bases Conference",
+        "area":"Systems",
+        "subarea": "Databases",
+        "location": "Worldwide"
+    },
+    {
+        "acronym": "ICDE",
+        "fullname": "IEEE International Conference on Data Engineering",
+        "area":"Systems",
+        "subarea": "Databases",
+        "location": "Worldwide"
+    },
+    {
+        "acronym": "PODS",
+        "fullname": "ACM SIGACT-SIGMOD-SIGART Symposium on Principles of Database Systems",
+        "area":"Systems",
+        "subarea": "Databases",
+        "location": "Worldwide"
+    },
+    {
+        "acronym": "DAC",
+        "fullname": "Design Automation Conference",
+        "area":"Systems",
+        "subarea": "Design automation",
+        "location": "Worldwide"
+    },
+    {
+        "acronym": "ICCAD",
+        "fullname": "International Conference on Computer Aided Design",
+        "area":"Systems",
+        "subarea": "Design automation",
+        "location": "Worldwide"
+
+    },
+    {
+        "acronym": "EMSOFT",
+        "fullname": "International Conference on Embedded Software",
+        "area":"Systems",
+        "subarea": "Embedded and real-time systems",
+        "location": "Worldwide"
+
+    },
+    {
+        "acronym": "RTAS",
+        "fullname": "IEEE Real Time Technology and Applications Symposium",
+        "area":"Systems",
+        "subarea": "Embedded and real-time systems",
+        "location": "Worldwide"
+
+    },
+    {
+        "acronym": "RTSS",
+        "fullname": "IEEE Real-Time Systems Symposium",
+        "area":"Systems",
+        "subarea": "Embedded and real-time systems",
+        "location": "Worldwide"
+
+    }, 	
+    {
+        "acronym": "HPDC",
+        "fullname": "IEEE International Symposium on High Performance Distributed Computing",
+        "area":"Systems",
+        "subarea": "High-performance computing",
+        "location": "Worldwide"
+
+    }, 	
+    {
+        "acronym": "ICS",
+        "fullname": "International Conference on Supercomputing ",
+        "area":"Systems",
+        "subarea": "High-performance computing",
+        "location": "Worldwide"
+    }, 	
+    {
+        "acronym": "SC",
+        "fullname": "International Conference for High Performance Computing, Networking, Storage and Analysis",
+        "area":"Systems",
+        "subarea": "High-performance computing",
+        "location": "Worldwide"
+    }, 
+    {
+        "acronym": "MOBICOM",
+        "fullname": "ACM/IEEE International Conference on Mobile Computing and Networking",
+        "area":"Systems",
+        "subarea": "Mobile computing",
+        "location": "Worldwide"
+    }, 
+    {
+        "acronym": "MOBISYS",
+        "fullname": "ACM SIGMOBILE International Conference on Mobile Systems, Applications, and Services",
+        "area":"Systems",
+        "subarea": "Mobile computing",
+        "location": "Worldwide"
+    }, 
+    {
+        "acronym": "SENSYS",
+        "fullname": "ACM International Conference on Embedded Networked Sensor Systems",
+        "area":"Systems",
+        "subarea": "Mobile computing",
+        "location": "Worldwide"
+    }, 
+    
+    {
+        "acronym": "IMC",
+        "fullname": "ACM/SIGCOMM Internet Measurement Conference",
+        "area":"Systems",
+        "subarea": "Measurement and performance analysis",
+        "location": "Worldwide"
+    }, 
+    {
+        "acronym": "SIGMETRICS",
+        "fullname": "Measurement and Modeling of Computer Systems",
+        "area":"Systems",
+        "subarea": "Measurement and performance analysis",
+        "location": "Worldwide"
+    },  
+    {
+        "acronym": "OSDI",
+        "fullname": "USENIX Symposium on Operating Systems Design and Implementation",
+        "area":"Systems",
+        "subarea": "Operating systems",
+        "location": "Worldwide"
+    }, 
+    {
+        "acronym": "SOSP",
+        "fullname": "Symposium on Operating Systems Principles",
+        "area":"Systems",
+        "subarea": "Operating systems",
+        "location": "Worldwide"
+    }, 
+    {
+        "acronym": "EUROSYS",
+        "fullname": "European Conference on Computer Systems",
+        "area":"Systems",
+        "subarea": "Operating systems",
+        "location": "Europe"
+    }, 
+    {
+        "acronym": "FAST",
+        "fullname": "USENIX Conference on File and Storage Technologies",
+        "area":"Systems",
+        "subarea": "Operating systems",
+        "location": "Worldwide"
+    }, 
+    {
+        "acronym": "USENIX ATC",
+        "fullname": "USENIX Annual Technical Conference",
+        "area":"Systems",
+        "subarea": "Operating systems",
+        "location": "Worldwide"
+    }, 	
+    {
+        "acronym": "PLDI",
+        "fullname": "ACM-SIGPLAN Symposium on Programming Language Design and Implementation",
+        "area":"Systems",
+        "subarea": "Programming languages",
+        "location": "Worldwide"
+    }, 
+    {
+        "acronym": "POPL",
+        "fullname": "ACM-SIGACT Symposium on Principles of Programming Languages",
+        "area":"Systems",
+        "subarea": "Programming languages",
+        "location": "Worldwide"
+    }, 
+    {
+        "acronym": "ICFP",
+        "fullname": "ACM SIGPLAN International Conference on Functional Programming",
+        "area":"Systems",
+        "subarea": "Programming languages",
+        "location": "Worldwide"
+    }, 
+    {
+        "acronym": "OOPSLA",
+        "fullname": "ACM SIGPLAN International Conference on Systems, Programming, Languages and Applications: Software for Humanity",
+        "area":"Systems",
+        "subarea": "Programming languages",
+        "location": "Worldwide"
+    }, 	
+    {
+        "acronym": "FSE",
+        "fullname": "ACM SIGSOFT Conference on the Foundations of Software Engineering",
+        "area":"Systems",
+        "subarea": "Software engineering",
+        "location": "Worldwide"
+    }, 
+    {
+        "acronym": "ICSE",
+        "fullname": "International Conference on Software Engineering",
+        "area":"Systems",
+        "subarea": "Software engineering",
+        "location": "Worldwide"
+    }, 
+    {
+        "acronym": "ASE",
+        "fullname": "International Conference on Automated Software Engineering ",
+        "area":"Systems",
+        "subarea": "Software engineering",
+        "location": "Worldwide"
+    }, 
+    {
+        "acronym": "ISSTA",
+        "fullname": "International Symposium on Software Testing and Analysis",
+        "area":"Systems",
+        "subarea": "Software engineering",
+        "location": "Worldwide"
+    }, 
+    {
+        "acronym": "FOCS",
+        "fullname": "IEEE Annual Symposium on Foundations of Computer Science",
+        "area":"Theory",
+        "subarea": "Algorithms and complexity",
+        "location": "Worldwide"
+    },
+    {
+        "acronym": "SODA",
+        "fullname": "Symposium on Discrete Algorithms",
+        "area":"Theory",
+        "subarea": "Algorithms and complexity",
+        "location": "Worldwide"
+    },
+    {
+        "acronym": "STOC",
+        "fullname": "ACM-SIAM Symposium on the Theory of Computing",
+        "area":"Theory",
+        "subarea": "Algorithms and complexity",
+        "location": "Worldwide"
+    },
+    {
+        "acronym": "CRYPTO",
+        "fullname": "Annual International Cryptology Conference",
+        "area":"Theory",
+        "subarea": "Cryptography",
+        "location": "Worldwide"
+    },
+    {
+        "acronym": "EUROCRYPT",
+        "fullname": "nternational Conference on the Theory and Application of Cryptographic Techniques",
+        "area":"Theory",
+        "subarea": "Cryptography",
+        "location": "Europe"
+    },
+    {
+        "acronym": "CAV",
+        "fullname": "International Conference on Computer Aided Verification",
+        "area":"Theory",
+        "subarea": "Logic and verification",
+        "location": "Worldwide"
+    },
+    {
+        "acronym": "LICS",
+        "fullname": "Logic in Computer Science",
+        "area":"Theory",
+        "subarea": "Logic and verification",
+        "location": "Worldwide"
+    },
+    {
+        "acronym": "ISMB",
+        "fullname": "Intelligent Systems in Molecular Biology",
+        "area":"Interdisciplinary Areas",
+        "subarea": "Comp. bio & bioinformatics",
+        "location": "Worldwide"
+    },
+    {
+        "acronym": "RECOMB",
+        "fullname": "Annual International Conference on Research in Computational Molecular Biology",
+        "area":"Interdisciplinary Areas",
+        "subarea": "Comp. bio & bioinformatics",
+        "location": "Worldwide"
+    },
+    {
+        "acronym": "SIGGRAPH",
+        "fullname": "International Conference on Computer Graphics and Interactive Techniques",
+        "area":"Interdisciplinary Areas",
+        "subarea": "Computer graphics",
+        "location": "Worldwide"
+    },
+    {
+        "acronym": "SIGGRAPH Asia",
+        "fullname": "International Conference on Computer Graphics and Interactive Techniques",
+        "area":"Interdisciplinary Areas",
+        "subarea": "Computer graphics",
+        "location": "Asia"
+    },
+    {
+        "acronym": "EC",
+        "fullname": "ACM Conference on Economics and Computation",
+        "area":"Interdisciplinary Areas",
+        "subarea": "Economics & computation",
+        "location": "Worldwide"
+    },
+    {
+        "acronym": "WINE",
+        "fullname": "Workshop on Internet and Network Economics",
+        "area":"Interdisciplinary Areas",
+        "subarea": "Economics & computation",
+        "location": "Worldwide"
+    },
+    {
+        "acronym": "CHI",
+        "fullname": "International Conference on Human Factors in Computing Systems",
+        "area":"Interdisciplinary Areas",
+        "subarea": "Human-computer interaction",
+        "location": "Worldwide"
+    },
+    {
+        "acronym": "UbiCOMP",
+        "fullname": "Ubiquitous Computing",
+        "area":"Interdisciplinary Areas",
+        "subarea": "Human-computer interaction",
+        "location": "Worldwide"
+    },
+    {
+        "acronym": "Pervasive",
+        "fullname": "International Conference on Pervasive Computing",
+        "area":"Interdisciplinary Areas",
+        "subarea": "Human-computer interaction",
+        "location": "Worldwide"
+    },
+    {
+        "acronym": "IMWUT",
+        "fullname": "Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies",
+        "area":"Interdisciplinary Areas",
+        "subarea": "Human-computer interaction",
+        "location": "Worldwide"
+    },
+    {
+        "acronym": "UIST",
+        "fullname": "ACM Symposium on User Interface Software and Technology",
+        "area":"Interdisciplinary Areas",
+        "subarea": "Human-computer interaction",
+        "location": "Worldwide"
+    },
+    {
+        "acronym": "ICRA",
+        "fullname": "IEEE International Conference on Robotics and Automation",
+        "area":"Interdisciplinary Areas",
+        "subarea": "Robotics",
+        "location": "Worldwide"
+
+    },
+    {
+        "acronym": "IROS",
+        "fullname": "IEEE/RJS International Conference on Intelligent RObots and Systems",
+        "area":"Interdisciplinary Areas",
+        "subarea": "Robotics",
+        "location": "Worldwide"
+
+    },
+    {
+        "acronym": "RSS",
+        "fullname": "Robotics: Science and Systems Conference",
+        "area":"Interdisciplinary Areas",
+        "subarea": "Robotics",
+        "location": "Worldwide"
+    },
+    {
+        "acronym": "VIS",
+        "fullname": "IEEE Transactions on Visualization and Computer Graphics",
+        "area":"Interdisciplinary Areas",
+        "subarea": "Visualization",
+        "location": "Worldwide"
+    },
+    {
+        "acronym": "VR",
+        "fullname": "IEEE Conference on Virtual Reality and 3D User Interfaces",
+        "area":"Interdisciplinary Areas",
+        "subarea": "Visualization",
+        "location": "Worldwide"
+    }
+]
+    
