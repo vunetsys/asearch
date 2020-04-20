@@ -2,7 +2,7 @@
 An academic venue search engine for academics
 
 
-## Monday 6th of April - Weekly Update:
+## Monday 6th of April - Bi-Weekly Update:
 I have just added the files i have used so far to populate the database.
 
 
@@ -23,3 +23,17 @@ an array of papers i fetch from the Scopus API from Elsevier.
 - NLP litterature.
 - New functions to individually update a Conference for the current year. 
 - Looking at a Tech Stack for the cohesion between the Back-end and Front-end of the project --> Currently leaning towards a End-to-End Javascript Project using the MERN (MongoDB - Express.js - React.js - Node.js) Stack with the use of python for the search algorithm (tokenizing,...).
+
+
+## Monday 20th of April - Bi-Weekly Update:
+
+
+
+#### Current Limitations: 
+- As a solution to the problem with the ssh tunneling i have contacted Elsevier to know if it is possible to get a Institutional token, Today, they have set me up with a token. So far i have to repopulate the database with the abstracts of the papers.
+- However I have an issue with accessing all papers so i will email Elsevier again see what is possible 
+
+#### What i am working on currently : 
+- NLP litterature.
+- New functions to individually update a Conference for the current year. 
+- Start implementing tokenizing and reverse indexing.
