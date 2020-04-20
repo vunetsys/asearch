@@ -1,15 +1,12 @@
 //Imports 
 const fetch = require('node-fetch');
 const rookout = require('rookout');
-rookout.start({
-    token: 'ddecd8cf42e785309ffbaf59c9b5f7ea75ca5a990fec438f078d04fbaedee062'
-})
 const assert= require('assert');
 const json_conferences = require('../json/conferences.json');
 const Conference= require('../models/conferences');
 
 
-function createURL(conf_name, year) { return 'https://api.elsevier.com/content/search/scopus?query=CONFNAME(' + conf_name + ')%20AND%20PUBYEAR%20%3D%20' + year + '%20AND%20DOCTYPE(cp)%20AND%20SRCTYPE(p)&field=dc:creator,dc:title,affilname,affiliation-city,affiliation-country&apiKey=7f59af901d2d86f78a1fd60c1bf9426a'; }
+function createURL(conf_name, year) { return 'https://api.elsevier.com/content/search/scopus?view=COMPLETE&query=CONFNAME(' + conf_name + ')%20AND%20PUBYEAR%20%3D%20' + year + '%20AND%20DOCTYPE(cp)%20AND%20SRCTYPE(p)&field=dc:creator,dc:title,dc:description,affilname,affiliation-city,affiliation-country,authkeywords'; }
 
 
 async function getPapers(url) {
@@ -17,15 +14,19 @@ async function getPapers(url) {
     try {
         const response = await fetch(url, {
             method: 'GET',
-            accept: 'application/json'
+            accept: 'application/json',
+            'X-ELS-APIKey': 'cf6978ad79cc59d054a52b4ef51a8c55',
+            'X-ELS-Insttoken': '7f2dfa84bf0fdd4d1c4aef88e3fe2fce'
         });
-        console.log('got response \n');
+        console.log(response);
         const json = await response.json();
 
         for (let i = 0; i < json['search-results']['entry'].length; i++) {
             temp[i] = {
                 title_id: json['search-results']['entry'][i]['dc:title'],
-                author: json['search-results']['entry'][i]['dc:creator']
+                author: json['search-results']['entry'][i]['dc:creator'],
+                abstract: json['search-results']['entry'][i]['dc:description'],
+                author_keywords: json['search-results']['entry'][i]['authkeywords']
             };
         }
 
