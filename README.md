@@ -28,6 +28,10 @@ an array of papers i fetch from the Scopus API from Elsevier.
 ## Monday 20th of April - Bi-Weekly Update:
 
 
+### Schema:
+conferences.js file contains the schema for my Mongo db database. This seems to be final but can be subject to change in the future.
+Update: 
+  - Added Abstract, Author Keywords.
 
 #### Current Limitations: 
 - As a solution to the problem with the ssh tunneling i have contacted Elsevier to know if it is possible to get a Institutional token, Today, they have set me up with a token. So far i have to repopulate the database with the abstracts of the papers.
