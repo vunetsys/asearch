@@ -34,7 +34,6 @@ Update:
   - Added Abstract, Author Keywords.
 
 #### Current Limitations: 
-- As a solution to the problem with the ssh tunneling i have contacted Elsevier to know if it is possible to get a Institutional token, Today, they have set me up with a token. So far i have to repopulate the database with the abstracts of the papers.
 - However I have an issue with accessing all papers so i will email Elsevier again see what is possible 
 
 #### What i am working on currently : 
