@@ -43,7 +43,7 @@ Update:
 - Start implementing tokenizing and reverse indexing.
 
 
-## Monday 20th of April - Bi-Weekly Update:
+## Monday 4th of May - Bi-Weekly Update:
 
 ### App
 ./server/app.js is the back end server used to access the database (Mongodb(mongoose) Node.js(Express.js) )
