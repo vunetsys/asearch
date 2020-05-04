@@ -50,7 +50,7 @@ Update:
 
 
 ### Data-manipulator 
-Function that deal with the API endpoints found in Data 
+Function that deal with the API endpoints found in Data & endpoints
 ### Schema:
 conferences.js file contains the schema for my Mongo db database. This seems to be final but can be subject to change in the future.
 Update: 
