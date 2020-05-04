@@ -25,13 +25,13 @@ an array of papers i fetch from the Scopus API from Elsevier.
 - Looking at a Tech Stack for the cohesion between the Back-end and Front-end of the project --> Currently leaning towards a End-to-End Javascript Project using the MERN (MongoDB - Express.js - React.js - Node.js) Stack with the use of python for the search algorithm (tokenizing,...).
 
 
-## Monday 4th of May - Bi-Weekly Update:
+## Monday 20th of april - Bi-Weekly Update:
 
 
 ### Schema:
 conferences.js file contains the schema for my Mongo db database. This seems to be final but can be subject to change in the future.
 Update: 
-  -The current state of the Schema can be found in the .
+  -Added Abstract and Author Keywords into the papers schema.
   
 
 #### Current Limitations: 
@@ -50,7 +50,7 @@ Update:
 
 
 ### Data-manipulator 
-Function that deal with the API endpoints found in Data & endpoints
+Functions that deal with the API endpoints found in Data & endpoints
 ### Schema:
 conferences.js file contains the schema for my Mongo db database. This seems to be final but can be subject to change in the future.
 Update: 
