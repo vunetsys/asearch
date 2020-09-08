@@ -6,8 +6,8 @@ const fetch = require("node-fetch");
 const options = {
   method: "GET",
   headers: {
-    "X-ELS-APIKey": "cf6978ad79cc59d054a52b4ef51a8c55", //ENTER HERE YOUR INSTUTIONAL API KEY.
-    "X-ELS-Insttoken": "7f2dfa84bf0fdd4d1c4aef88e3fe2fce", //ENTER HERE YOUR INSTUTIONAL TOKEN.
+    "X-ELS-APIKey": "", //ENTER HERE YOUR INSTUTIONAL API KEY.
+    "X-ELS-Insttoken": "", //ENTER HERE YOUR INSTUTIONAL TOKEN.
   },
 };
 
@@ -165,8 +165,21 @@ async function getPapers(final, url, conf_name) {
 }
 
 
+//RESET 
+const Reset = async(req, res, next) => {
+  try {
+    Models.Conference.deleteMany({}, callback);
+    Models.Papers.deleteMany({}, callback);
+  }
+  catch (error) {
+    console.log(error);
+  }
+}
+
+
 
 exports.add = Create;
 exports.delete = Delete;
 exports.update = Update;
 exports.getPapers = Fetch;
+exports.reset = Reset;

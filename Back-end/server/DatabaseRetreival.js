@@ -8,7 +8,7 @@ const IO = require("./Pipelines.js");
 
 //Connection to the database.
 const connection = mongoose
-  .connect("mongodb+srv://mbt:looping@asearch-x3bkp.mongodb.net/asearch")
+  .connect("") // ENTER URI FOR DB HERE 
   .then(() => {
     console.log(
       "ASEARCH-MongoDB -> |Connection established to the asearch database|"
@@ -178,6 +178,7 @@ const FieldBasedSearch = async (req, res, next) => {
     if (result) return res.json(result);
   });
 };
+
 
 exports.getPapersBasedOnUserInput = getPapersBasedOnUserInput;
 exports.getConferencesBasedOnUserInput = getConferencesBasedOnUserInput;
