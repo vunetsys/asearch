@@ -1,0 +1,51 @@
+.search-bar {
+  position: flex;
+  box-align: center;
+  border-radius: 40px;
+  padding: 10px;
+  left: 20%;
+  
+}
+.input_bar{ 
+  width: 65vh !important;
+  padding-bottom: 2em;
+  background: transparent !important;
+  position: block !important;
+}
+
+.box{
+  width: 100%;
+  text-align:center !important;
+}
+.vertical-center {
+  min-height: 100%; /* Fallback for browsers do NOT support vh unit */
+  min-height: 100vh; /* These two lines are counted as one :-)       */
+  margin: 0;
+  display: flex;
+  align-items: center;
+}
+
+.btn {
+  left: 30%;
+  border-radius: 15px;
+  color: black;
+  line-height: 40 px;
+}
+
+
+
+.form {
+  /* This bit sets up the horizontal layout */
+  display: flex;
+  flex-direction: row;
+
+  /* This bit draws the box around it */
+  border-bottom: 1px solid red;
+  /* I've used padding so you can see the edges of the elements. */
+  padding: 2px;
+}
+
+.button {
+  /* Just a little styling to make it pretty */
+  margin: auto;
+}

@@ -1,0 +1,20 @@
+.form-control {
+  margin: 3rem 0;
+}
+
+.form-control input,
+.form-control textarea {
+  display: block;
+}
+
+
+
+.form-control--invalid label,
+.form-control--invalid p {
+  color: red;
+}
+
+.form-control--invalid input,
+.form-control--invalid textarea {
+  border-color: red;
+}

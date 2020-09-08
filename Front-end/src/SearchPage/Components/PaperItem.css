@@ -1,0 +1,35 @@
+.conference-item {
+    position: flex;
+    list-style: none;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding : 5rem;
+    width:100%;
+  }
+  
+  .inline{
+      position: inline-block;
+  }
+
+  .conference-item__info h2 {
+    text-align: center;
+    font-size: 1;
+    color: black;
+  }
+
+  .position-right {
+      text-align: right;
+  }
+
+  .position-right a{
+    font-size: 6000;
+  }
+  .underline-red{ 
+    text-decoration: underline red;
+    color: black;
+  }
+
+  #btnPlaceOrder:disabled {
+    color : transparent !important;
+    opacity: 0.2;
+  }

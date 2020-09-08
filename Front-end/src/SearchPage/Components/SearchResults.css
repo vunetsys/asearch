@@ -1,0 +1,23 @@
+.conference-list{ 
+    position: absolute;
+    align-items: center;
+    top: 20%;
+    left : 12%;
+    margin:auto;
+    padding:2rem;
+}
+
+.not_found {
+    text-align: center;
+  margin: auto;
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  
+}
+
+.not_found img { 
+    padding: 10%;
+}

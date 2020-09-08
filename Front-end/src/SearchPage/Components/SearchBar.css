@@ -1,0 +1,56 @@
+.search-bar1{
+  position: flex;
+  top: 15%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  border-radius: 20%;
+  padding: 10px;
+}
+
+.input_bar {
+  outline: none;
+  border:none;
+  border-bottom:1px solid red;
+  border-radius: 0% !important;
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none !important;
+}
+
+.input_after_query {
+    /* Tell the input to use all the available space */
+    flex-grow:2;
+    /* And hide the input's outline, so the form looks like the outline */
+    border:none;
+    line-height: 40 px;
+    width: 40vh;
+    transition: width 0.3s;
+    transition-timing-function: ease;
+    border-bottom:1px solid red;
+  }
+  
+  .input_after_query:focus {
+    /* removing the input focus blue box. Put this on the form if you like. */
+    outline: none;
+    width: 70vh;
+  }
+
+
+  .search_bar {
+    top: 15%;
+    position: flex;
+    margin: auto;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+
+  }
+
+  .btn{
+    position: absolute;
+    top: 10%
+  }

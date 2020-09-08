@@ -1,0 +1,17 @@
+.conference_metadata{
+    position: absolute;
+    top:12%;
+    margin:auto;
+    padding: 2rem;
+}
+
+.seperator{
+    -webkit-box-shadow: -2px 13px 81px -66px rgba(0,0,0,1);
+    -moz-box-shadow: -2px 13px 81px -66px rgba(0,0,0,1);
+    box-shadow: -2px 13px 81px -66px rgba(0,0,0,1);
+}
+
+.Papers{
+    position: relative;
+    overflow: inside; 
+}

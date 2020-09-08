@@ -1,0 +1,12 @@
+.listConferences{
+    position:absolute;
+}
+
+.listConferences1 {
+    position:absolute;
+    width: 100%;
+}
+
+.btn-group button:focus {
+    color : green;
+}

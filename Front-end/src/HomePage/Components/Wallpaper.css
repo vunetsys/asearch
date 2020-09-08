@@ -1,0 +1,27 @@
+.BG{
+    position: fixed;
+    z-index: -1;
+    width: 700px;
+    Height: 700px;
+    top: 55%;
+    left: 30%;
+    opacity: 80%;
+}
+
+.blob{
+    position: fixed;
+    z-index: -1;  
+    width: 700px;
+    Height: 700px;
+    top: -30%;
+    left: -25%;
+}
+
+.blob2{
+    position: fixed;
+    z-index: -1;  
+    width: 700px;
+    Height: 700px;
+    top: 70%;
+    left: 85%;
+}
