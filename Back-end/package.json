@@ -16,7 +16,7 @@
     "moment": "^2.27.0",
     "mongoose": "^5.9.12",
     "natural": "^2.1.5",
-    "node-fetch": "^2.6.0"
+    "node-fetch": "^2.6.1"
   },
   "devDependencies": {
     "nodemon": "^2.0.3"
