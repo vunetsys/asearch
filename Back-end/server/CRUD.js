@@ -23,13 +23,13 @@ const url = (conf_name) => {
 
 //CREATE A NEW CONFERENCE
 const Create = async (req, res, next) => {
-  var fullname = req.body.fullname;
-  var acronym = req.body.acronym;
-  var area = req.body.area;
-  var subarea = req.body.subarea;
-  var location = "worldwide";
-  var url = req.body.url;
-  var description = req.body.desc;
+  let fullname = req.body.fullname;
+  let acronym = req.body.acronym;
+  let area = req.body.area;
+  let subarea = req.body.subarea;
+  let location = "worldwide";
+  let url = req.body.url;
+  let description = req.body.desc;
   console.log(fullname, acronym);
 
   try {
@@ -42,7 +42,6 @@ const Create = async (req, res, next) => {
       url: url,
       description: description,
     });
-    console.log(final);
     final.save();
   } catch (err) {
     console.log(err);
@@ -52,14 +51,14 @@ const Create = async (req, res, next) => {
 
 //UPDATE AN EXISTING CONFERENCE
 const Update = async (req, res, next) => {
-  var id = req.body.id;
-  var fullname = req.body.fullname;
-  var acronym = req.body.acronym;
-  var area = req.body.area;
-  var subarea = req.body.subarea;
-  var location = "worldwide";
-  var url = req.body.url;
-  var description = req.body.desc;
+  let id = req.body.id;
+  let fullname = req.body.fullname;
+  let acronym = req.body.acronym;
+  let area = req.body.area;
+  let subarea = req.body.subarea;
+  let location = "worldwide";
+  let url = req.body.url;
+  let description = req.body.desc;
 
   console.log(req, id);
   try {
@@ -79,7 +78,7 @@ const Update = async (req, res, next) => {
 
 //DELETE AN EXISTING CONFERENCE
 const Delete = async (req, res, next) => {
-  var id = req.body.id;
+  let id = req.body.id;
 
   console.log(req, id);
   try {
@@ -95,12 +94,12 @@ const Delete = async (req, res, next) => {
 
 //FETCH AND SAVE PAPERS FOR AN EXISTING CONFERENCE
 const Fetch = async (req, res, next) => {
-  var acronym = req.body.id;
+  let acronym = req.body.id;
   let final = new Array();
   console.log(new Date(), " ~ Creating new conference document. >>", acronym);
   try {
-    var conf_papers = await getPapers(final, url(acronym), acronym);
-    for (var i = 0; i <= conf_papers.length; i++) {
+    let conf_papers = await getPapers(final, url(acronym), acronym);
+    for (let i = 0; i <= conf_papers.length; i++) {
       conf_papers[i].save();
       console.log("done with papers");
     }
