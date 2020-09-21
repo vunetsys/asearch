@@ -1,7 +1,6 @@
 import { useState, useCallback, useRef, useEffect } from 'react';
 
 export const useHttpClient = () => {
-  console.log("entered Hook");
   const [isLoading, setIsLoading] = useState(false);
   const [error, setError] = useState();
 
@@ -10,7 +9,7 @@ export const useHttpClient = () => {
 
   const sendRequest = useCallback(
     async (url, method = 'GET', body = null, headers = {}) => {
-      console.log("entered sent request =>" + url);
+      console.log("sent request =>" + url);
       setIsLoading(true);
       const httpAbortCtrl = new AbortController();
       activeHttpRequests.current.push(httpAbortCtrl);
@@ -22,8 +21,6 @@ export const useHttpClient = () => {
           headers,
           signal: httpAbortCtrl.signal
         });
-
-        console.log("Got response");
 
         const responseData = await response.json();
 
@@ -53,7 +50,6 @@ export const useHttpClient = () => {
 
   useEffect(() => {
     return () => {
-      // eslint-disable-next-line react-hooks/exhaustive-deps
       activeHttpRequests.current.forEach(abortCtrl => abortCtrl.abort());
     };
   }, []);
