@@ -15,7 +15,7 @@
     "express": "^4.17.1",
     "moment": "^2.27.0",
     "mongoose": "^5.9.12",
-    "natural": "^2.1.5",
+    "natural": "^2.4.5",
     "node-fetch": "^2.6.0"
   },
   "devDependencies": {
